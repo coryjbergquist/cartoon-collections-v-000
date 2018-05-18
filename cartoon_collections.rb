@@ -20,8 +20,8 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   new_string = array.join" "
-  cheese_string = cheese_types.join" ""
-    if new_string.include?(cheese_types)
+  cheese_string = cheese_types.join" "
+    if new_string.include?(cheese_string)
        x = array & cheese_types
        x.join""
 
