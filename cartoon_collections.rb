@@ -12,9 +12,9 @@ array.map {|x| x.capitalize + "!"}
 end
 
 def long_planeteer_calls(array)
- 
+
  array.any? {|x| x.length > 4}
- 
+
 end
 
 def find_the_cheese(array)
@@ -24,7 +24,7 @@ def find_the_cheese(array)
        x = array & cheese_types
        x.join""
        binding.pry
-    else 
+    else
     nil
  end
 end
