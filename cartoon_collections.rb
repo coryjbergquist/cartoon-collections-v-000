@@ -19,6 +19,7 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  binding.pry
   new_string = array.join" "
   cheese_string = cheese_types.join" "
     if new_string.include?(cheese_string)
