@@ -1,4 +1,4 @@
-require pry
+require 'pry'
 
 def roll_call_dwarves(names)
   names.each.with_index(1) {|name, index| puts "#{index}. #{name}"}
