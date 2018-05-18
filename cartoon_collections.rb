@@ -21,9 +21,10 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   new_string = array.join" "
     if new_string.include?(cheese_types)
+      binding.pry
        x = array & cheese_types
        x.join""
-       binding.pry
+
     else
     nil
  end
